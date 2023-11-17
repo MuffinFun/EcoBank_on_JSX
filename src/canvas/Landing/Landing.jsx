@@ -1,6 +1,6 @@
 import '../../assets/css/canvas/Landing/Landing.css';
-import BottomSection from '../../layouts/Landing/BottomSection/BottomSection';
-import TopSection from '../../layouts/Landing/TopSection/TopSection';
+import BottomSection from '../../components/layouts/Landing/BottomSection/BottomSection';
+import TopSection from '../../components/layouts/Landing/TopSection/TopSection';
 
 const Landing = () => {
 

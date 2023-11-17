@@ -1,4 +1,4 @@
-import '../../assets/css/layouts/TransctTypesDiagram/TransctTypesDiagram.css';
+import '../../../../assets/css/layouts/TopSection/TransctTypesDiagram/TransctTypesDiagram.css';
 
 const TransctTypesDiagram = () => {
 	return (

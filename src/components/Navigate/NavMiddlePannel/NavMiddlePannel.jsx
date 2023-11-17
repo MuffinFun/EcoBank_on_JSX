@@ -1,4 +1,4 @@
-import NavButton from '../../../utils/NavButton/NavButton';
+import NavButton from '../../utils/NavButton/NavButton';
 
 const NavMiddlePannel = () => {
 	return (

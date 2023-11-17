@@ -1,0 +1,4 @@
+.payments {
+  border: 2px solid white;
+  grid-area: var(--grid-area-bottom-first);
+}

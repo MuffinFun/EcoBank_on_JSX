@@ -1,8 +1,0 @@
-@import url('../../variables/GridArea.css');
-
-.acc-summary {
-  width: 400px;
-  height: 40%;
-  border: 2px solid black;
-  grid-area: var(--grid-area-second);
-}
