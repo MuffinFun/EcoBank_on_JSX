@@ -6,8 +6,8 @@ const Landing = () => {
 
 	return (
 		<div className='main-window'>
-			<BottomSection></BottomSection>
 			<TopSection></TopSection>
+			<BottomSection></BottomSection>
 		</div>
 	);
 };
