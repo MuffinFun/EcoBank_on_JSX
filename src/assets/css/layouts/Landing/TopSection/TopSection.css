@@ -1,10 +1,10 @@
 .top-section {
-  height: 230px;
+  height: 350px;
   background-color: rgba(45, 215, 174, 0.75);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.25fr 0.6fr;
   grid-column-gap: 30px;
   grid-row-gap: 50px;
-  padding: 0 98px 30px 98px;
+  padding: 0 98px;
 }

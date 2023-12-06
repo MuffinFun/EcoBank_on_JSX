@@ -1,0 +1,17 @@
+.payment__item {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  flex: none;
+}
+.payment__item:nth-child(odd) {
+  width: 150px;
+}
+.payment__name {
+  padding: 10px;
+  text-align: center;
+}

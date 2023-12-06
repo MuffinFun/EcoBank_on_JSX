@@ -1,4 +1,21 @@
 .recent-transct {
   border: 2px solid white;
   grid-area: var(--grid-area-bottom-fourth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+  padding: 0 10px;
+  overflow: scroll;
+}
+.transact__title {
+  color: rgb(192, 190, 188);
+}
+.transact__transact-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: none;
 }

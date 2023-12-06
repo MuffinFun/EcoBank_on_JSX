@@ -1,6 +1,7 @@
 .bottom-section {
   background-color: rgba(30, 30, 30, 1);
-  height: calc(100vh - 230px);
+  min-height: calc(100vh - 230px);
+  max-height: 800px;
   display: grid;
   grid-template-columns: 1fr 0.45fr;
   grid-template-rows: 1fr 1.3fr 1fr;

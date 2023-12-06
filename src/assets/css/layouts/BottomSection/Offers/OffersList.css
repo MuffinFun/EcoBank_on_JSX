@@ -1,0 +1,24 @@
+.offers-list__item {
+  width: 210px;
+  height: 130px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: none;
+  padding: 20px;
+}
+.item__content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex: none;
+  padding: 10px;
+}
+.item__content h2 {
+  text-align: end;
+  font-size: 13px;
+}

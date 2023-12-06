@@ -1,4 +1,12 @@
-.recent-pay {
+.recent-payments {
   border: 2px solid white;
   grid-area: var(--grid-area-bottom-third);
+  height: 120px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 10px;
 }

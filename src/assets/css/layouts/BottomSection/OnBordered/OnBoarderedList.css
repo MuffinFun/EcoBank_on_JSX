@@ -1,0 +1,20 @@
+.on-board__item {
+  width: 169px;
+  height: 69px;
+  border-radius: 20%;
+  background-color: rgba(153, 109, 225, 0.516);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  flex: none;
+}
+.item__title {
+  color: rgb(185, 185, 185);
+}
+
+.item_percents {
+  color: rgb(185, 185, 185);
+  text-align: start;
+}

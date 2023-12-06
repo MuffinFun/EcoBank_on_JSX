@@ -2,4 +2,41 @@
 .transact-types {
   border: 2px solid black;
   grid-area: var(--grid-area-top-third);
+  width: 370px;
+  height: 160x;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.left-wrapper {
+  width: 30%;
+  height: 60%;
+}
+.wrapper__diagramm {
+  position: absolute;
+  top: 8px;
+  left: 26px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: rgb(202, 142, 52);
+}
+.right-wrapper {
+  padding-right: 13px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 80%;
+  justify-content: space-between;
+}
+.wrapper__transact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__transact:not(span) {
+  text-align: end;
 }

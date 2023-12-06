@@ -1,4 +1,10 @@
 .on-bord {
   border: 2px solid white;
   grid-area: var(--grid-area-bottom-fifth);
+  height: 120px;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
 }

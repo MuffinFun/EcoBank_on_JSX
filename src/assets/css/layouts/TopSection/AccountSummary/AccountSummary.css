@@ -1,6 +1,9 @@
 @import url('../../../variables/GridArea.css');
 
 .acc-summary {
-  border: 2px solid black;
   grid-area: var(--grid-area-top-second);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  overflow: scroll;
 }

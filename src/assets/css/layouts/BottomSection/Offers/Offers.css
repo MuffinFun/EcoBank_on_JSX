@@ -1,6 +1,13 @@
 @import '../../../variables/GridArea.css';
 
 .offers {
+  height: 170px;
   border: 2px solid white;
   grid-area: var(--grid-area-bottom-second);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  overflow: scroll;
+  flex: none;
+  padding: 0 10px;
 }

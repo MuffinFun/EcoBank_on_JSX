@@ -1,0 +1,47 @@
+.transact-list__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 0.5px solid rgb(29, 29, 29);
+}
+
+.item__left-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.item__transact-description {
+  color: rgb(192, 190, 188);
+  font-size: 12px;
+}
+.item__transact-date {
+  color: rgb(192, 190, 188);
+  font-size: 12px;
+}
+
+.item__right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.item__transact-summ {
+  color: rgb(192, 190, 188);
+}
+
+.item__rate {
+  font-size: 10px;
+  color: rgb(192, 190, 188);
+  text-align: end;
+  height: 15px;
+}
+
+.red {
+  color: rgba(184, 77, 77, 0.742);
+}
+
+.green {
+  color: rgba(1, 208, 1, 0.532);
+}
